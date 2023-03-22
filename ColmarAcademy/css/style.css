@@ -1,0 +1,391 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    Box-sizing: inherit;
+}
+    
+Html {
+    box-sizing: border-box;
+    Scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #989898
+}
+
+h1, h2, h3, h4, h5 {
+    color: #4f4f4f;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.start-here-btn {
+    background-color: #515151;
+    color: #fff;
+    width: 60%;
+    padding: 8px 0;
+    font-size: 18px;
+}
+
+.read-more {
+    color: #4577bc;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h5 {
+    color: #01161e;
+}
+
+.logo span {
+    color: #9f9b9b;
+}
+
+.nav-item ul {
+    display: flex;
+    color: #4f4f4f;
+}
+
+.nav-link {
+    list-style-type: none;
+    padding-left: 16px;
+}
+/* END: NAVBAR */
+
+
+/* SECTION 1 */
+.section-1 {
+    background-color: #c4c2c2;
+    display: flex;
+    padding: 32px 24px;
+}
+
+.banner-img {
+    width: 60%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-info-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+}
+
+.banner-info-1 h1,h4 {
+    padding-bottom: 16px;
+}
+/* END: SECTION 1 */
+
+
+/* SECTION 2 */
+.section-2 {
+    display: flex;
+    padding: 32px 24px;
+}
+
+.banner-img h2 {
+    padding-top: 32px;
+}
+
+.banner-img p {
+    padding: 24px 0;
+}
+
+.banner-img h5 {
+    padding-bottom: 8px;
+}
+
+.banner-info-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 24px;
+    width: 40%;
+}
+
+.news {
+    display: flex;
+    padding-bottom: 16px;
+    padding-left: 16px
+}
+
+.news-img {
+    width: 35%;
+}
+
+.news-img img {
+    width: 100%;
+    height: auto;
+}
+
+.news-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    width: 65%;
+}
+
+.news-info h3 {
+    padding-bottom: 15px;
+}
+
+.news-info p {
+    padding-bottom: 5px;
+}
+
+.news-info a {
+    text-decoration: none;
+}
+
+#guest-lecture-background {
+    background-color: #e1dfdf;
+    padding-top: 16px;
+}
+/* END: SECTION 2 */
+
+
+/* SECTION 3 */
+.section-3 {
+    background-color: #e1dfdf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s3-header {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 32px 40px;
+}
+
+.courses-info {
+    background-color: white;
+    width: 30%;
+}
+
+.courses img {
+    height: auto;
+    width: 100%;
+}
+
+.courses-card {
+    padding: 16px 16px 24px 16px;
+}
+
+.courses-card h4 {
+    padding-bottom: 0;
+}
+
+.courses-opacity {
+    padding-bottom: 16px;
+}
+/* END: SECTION 3 */
+
+
+/* SECTION 4 */
+.s4-header {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.s4-main {
+    display: flex;
+    padding: 0 24px 32px 24px;
+}
+
+.s4-video {
+    width: 60%;
+    padding-right: 24px;
+}
+
+.s4-video video {
+    padding-bottom: 24px;
+}
+
+.s4-video h3 {
+    padding-bottom: 15px;
+}
+
+.s4-news {
+    width: 40%;
+}
+
+.s4-news-inner {
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.s4-news-inner img {
+    padding: 16px 0 0 16px
+}
+
+.s4-news-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+}
+
+.s4-background {
+    background-color: #e1dfdf;
+} 
+/* END: SECTION 4 */
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 16px 24px;
+}
+
+.terms ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.terms li {
+    padding: 0 16px;
+}
+/* END: FOOTER */
+
+/* @MEDIA */
+@media only screen and (max-width: 720px) {
+
+/* NAVBAR */
+.nav-item, .logo h5 {
+    display: none;
+}
+
+.to-hide {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+/* END: NAVBAR */
+    
+/* SECTION 1 */
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.banner-img, .banner-info-1 {
+    width: 100%;
+}
+
+.banner-info-1 {
+    padding: 32px;
+}
+
+.banner-info-1 h4 {
+    padding-bottom: 8px;
+}
+/* END: SECTION 1 */
+
+/* SECTION 2 */
+.banner-img-hide {
+    display: none;
+}
+
+.banner-info-2 {
+    width: 100%
+}
+
+.news {
+    flex-direction: column;
+    padding-left: 0;
+    width: 100%
+}
+
+#guest-lecture-background {
+    background-color: #fff;
+}
+/* END: SECTION 2 */
+
+/* SECTION 3 */
+.section-3 {
+    background-color: white;;
+}
+
+.courses-info img, .courses-info p {
+    display: none;
+}
+
+.courses {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.courses-info {
+    background-color: #e1dfdf;
+    width: 100%;
+    text-align: center;
+}
+
+/* END: SECTION 3 */
+
+    
+/* SECTION 4 */
+.s4-header, .s4-video-info, .s4-news {
+    display: none;
+}
+
+.s4-video {
+    width: 100%;
+    padding-right: 0;
+}
+/* END: SECTION 4 */
+
+  }
+/* END: @MEDIA */
+  
